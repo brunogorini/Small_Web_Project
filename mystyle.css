@@ -1,0 +1,210 @@
+/*## My Style ##*/
+
+/***Basic Elements***/
+body {
+	background-color: #366A82;
+	color: #EEDD00;
+	font-family: verdana, liberation; 
+	font-size: 16px; 
+	height: 525px;
+	margin-left:auto;
+	width: 1000px;
+    margin-right:auto;
+}
+a:link {
+	color: #EEEE33; 
+	text-decoration: none;
+}
+a:visited {
+	color: #E0E033; 
+	text-decoration: none;
+}
+ul {
+	line-height:200%;
+	list-style-image: url('imagens/BrilhoMark.png');
+}
+nav ul {
+	line-height:230%; 
+	margin-top:40px;
+}
+
+/***Basic Layout***/
+header {
+	display:block; 
+	margin-bottom: 1px;
+}
+nav {
+	display:block; 
+	float: left;
+	width: 20%; 
+}
+section {
+	display:block; 
+	float: right;
+	width: 77%; 
+}
+
+/***Header***/
+div.imagLogo {
+	border-bottom-style: solid; 
+	border-bottom-width: 3px; 
+	display: inline-block;
+	margin-bottom: 6px; 
+	padding-bottom: 15px; 
+}
+div.ender {
+	float: right;
+	font-size: 15px; 
+	line-height: 140%; 
+	text-align: right; 
+}
+
+/***Apresentação***/
+div.apres, h1 {
+	font-size: 18px;
+	font-weight:normal; 
+	text-align: center; 
+}
+
+/***Aparelhos***/
+h3 {
+	color: #FFFFFF;
+}
+ol {
+	color: #FFFFFF; 
+	line-height: 200%;
+	list-style-type: upper-roman; 
+}
+
+/***Acessórios***/
+.tabAcess {
+	background-color: #EECC88; 
+	border-collapse: collapse; 
+	border: solid; 
+	color: #000066; 
+	font-family: arial, ubuntu; 
+	font-size: 18px;
+	margin-top: 6px;
+}
+th, td {
+	border: 3px solid #225588; 
+	padding: 6px 12px 6px 12px;
+}
+tr.titulo {
+	background-color: #2288BB; 
+	color: #FFFF00; 
+	font-size: 24px;
+}
+tr.linTH {
+	background-color: #0099BB; 
+	color: #FFFFFF; 
+	vertical-align: middle;
+}
+th.colTH {
+	background-color: #00BB88; 
+	color: #FFFFFF; 
+	text-align: center;
+}
+td {
+	height: 300px;
+	width: 300px;
+}
+img.imgAcess {
+	background-color: #FFFFFF;
+	border: 3px solid #000066;
+	display: block;
+	padding: 20px 50px 20px 50px;
+    margin: auto;
+    width: 50%;
+}
+h4 {
+	color: #000066;
+	text-align: center;
+}
+span.preco {
+	display: block;
+    margin: auto;
+    width: 50%;
+	color: #DD0000; 
+	text-align: center;
+	font-weight: bold;
+}
+
+/***Compras***/
+form {
+	float: right;
+}
+fieldset {
+	background-color: #2288BB; 
+	color: #FFFFFF;
+}
+.fsForm {
+	clear: both; 
+	line-height: 190%;
+	width: 532px; 
+}
+.fsResEsq {
+	float: left;
+	height: 280px; 
+	line-height: 190%; 
+	width: 250px;
+}
+label.left {
+	display: inline-block; 
+	float: left; 
+	width: 90px;
+}
+label.right {
+	display: inline-block; 
+	margin-left: 28px;
+	width: 70px; 
+}
+input.left {
+	float: left;
+}
+input.right {
+	float: right;
+}
+span.right {
+	float: right;
+}
+textarea {
+	height: 80px; 
+	margin-top: 10px;
+	width: 240px; 
+}
+.fsResDir {
+	float: right;
+	height: 280px; 
+	line-height: 190%; 
+	width: 250px; 
+}
+.fsCartao {
+	background-color: #00BB88;
+}
+div.parcelamento {
+	color: #FFFF00; 
+	line-height: 300%;
+}
+div.submit {
+	float: right; 
+	margin-top: 20px;
+}
+#nome, #email {
+	width: 200px;
+}
+#cpf, #telefone, #numero {
+	width: 120px;
+}
+#endereco {
+	width: 420px;
+}
+#valor {
+	width: 80px;
+}
+#validade_mes {
+	width: 30px;
+}
+#validade_ano {
+	width:44px
+}

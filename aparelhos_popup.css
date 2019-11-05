@@ -1,0 +1,27 @@
+/*## Aparelhos PopUp ##*/
+
+body {background-color: #366A82;
+	color: #EEDD00;
+	font-family: verdana, liberation; 
+	font-size: 16px; 
+	display: block;
+    margin: auto;
+	text-align: center;
+	margin-top:15px;
+}
+	
+ul {
+	line-height:200%;
+	list-style-position: inside;
+	list-style-image: url('imagens/BrilhoMark.png');
+	text-align: left;
+}
+
+div.aparelho {
+	display: block;
+	width: 300px;
+	margin: auto;
+	background-color: #FFFFFF;
+	border: solid 3px; 
+	padding: 20px 50px 20px 50px;
+}

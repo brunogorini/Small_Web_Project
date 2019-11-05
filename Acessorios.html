@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Acessórios</title>
+		<meta name="description" content="O melhor site de compra de aparelhos celulares e acessórios">
+		<meta name="keywords" content="celular, aparelhos, acessórios, compras">
+		<meta name="author" content="Bruno Gorini">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	</head>
+ 
+	<body>
+		<header>
+			<div class="imagLogo">
+				<img src="imagens/LogoCelpq.png" alt="Logo: O Cel é o Limite">
+			</div>
+			<div class="ender">
+				<address>Av. Alexander Graham Bell,1847<br>
+						Cel: (21) 98765-4321<br>
+						<a href="mailto:contato@gbell.com.br">contato@gbell.com.br</a>
+				</address>
+			</div>
+		</header>
+	
+		<nav>
+			<ul>
+				<li>
+					<a target="_self" href="CelLimite.html">Apresentação</a>
+				</li>
+				<li>
+					<a target="_self" href="Aparelhos.html">Aparelhos</a>
+				</li>
+				<li>
+					<a target="_self" href="Acessorios.html">Acessórios</a>
+				</li>
+				<li>
+					<a target="_self" href="Compras.html">Compras</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<section>
+			<form class="acess">
+				<table class="tabAcess">
+					<thead>
+						<tr class="titulo">
+							<th colspan="3">Acessórios</th>
+						</tr>
+			
+						<tr class="linTH">
+							<th>Tipo</th>	
+							<th colspan="2">Descrição</th>	
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<th class="colTH"><label for="carregadores">Carregadores Portáteis</label><br><br>
+								<select name="carregadores" id="carregadores" onChange="infoCar(this);">
+									<option value="defaultValue" selected>---</option>				
+									<option value="0">Pn-951</option>
+									<option value="1">Tl-Pb10400</option>
+									<option value="2">Pn-968</option>
+								</select>
+							</th>
+							<td colspan="2" rowspan="2"><div id="descAcess"></div></td>	
+							<script src="acessorios.js"></script>
+						</tr>
+
+						<tr>
+							<th class="colTH"><label for="memoria">Cartões de Memória</label><br><br>
+								<select name="memoria" id="memorias" onChange="infoMem(this);">
+									<option value="defaultValue" selected>---</option>				
+									<option value="0">Sandisk 128Gb</option>
+									<option value="1">Samsung 64Gb</option>
+								</select>
+								</th>	
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</section>
+	</body>
+
+</html>
